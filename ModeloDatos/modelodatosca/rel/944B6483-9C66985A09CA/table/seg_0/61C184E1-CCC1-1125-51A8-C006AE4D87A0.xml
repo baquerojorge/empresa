@@ -1,0 +1,181 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="61C184E1-CCC1-1125-51A8-C006AE4D87A0" directorySegmentName="seg_0" name="PLAN_SERVICIO">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 16:06:18 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pkName>PLAN_SERVICIO_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_PLAN_SERVICIO" id="17C4579C-A1C6-02A2-22DB-08546CFEAA5D">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 17:42:21 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_PLAN" id="684ABF1F-E0AC-89F5-BA91-B6711B6E10DC">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 17:42:21 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>269506C1-C284-6852-6B35-6194DF7AD9F2</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="163394A9-9CD3-BB1B-0016-1EB326D323BB" referredColumn="269506C1-C284-6852-6B35-6194DF7AD9F2"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_SERVICIO" id="DAF69072-550B-0704-BC7B-88AD3DEB4C0E">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 17:42:21 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>A9E86551-D72A-F378-2B44-AF0B78238A62</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4666724A-110E-FB79-679D-4B46BA44A007" referredColumn="A9E86551-D72A-F378-2B44-AF0B78238A62"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="VALOR" id="01D2250C-D15B-60CA-1D32-6F6E0B199194">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 17:42:21 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="DESCRIPCION" id="279BB672-9C76-B03F-8628-44BC1FAF3312">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 17:42:21 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="ED8C04F8-9472-28F8-3298-DA0D46167B17" name="PLAN_SERVICIO_PK">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 17:42:21 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="17C4579C-A1C6-02A2-22DB-08546CFEAA5D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="B76C4034-02D6-6555-D091-88136F8C04B4" name="PLAN_SERVICIO_U1">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 17:42:21 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="684ABF1F-E0AC-89F5-BA91-B6711B6E10DC"/>
+<colUsage columnID="DAF69072-550B-0704-BC7B-88AD3DEB4C0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="546A2243-9CB4-0E8B-BC3D-6BF7EC8CD994" name="PLAN_SERVICIO_F2">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 16:07:38 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="DAF69072-550B-0704-BC7B-88AD3DEB4C0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3D63C384-C7AE-3968-68E1-4810F15BCDDD" name="PLAN_SERVICIO_F1">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 16:07:30 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="684ABF1F-E0AC-89F5-BA91-B6711B6E10DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

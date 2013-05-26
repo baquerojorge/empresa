@@ -1,0 +1,206 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="D972BFBE-9B80-2A6B-A62D-8B6D4142567A" directorySegmentName="seg_0" name="PARAMETRO">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-10 02:43:22 UTC</createdTime>
+<commentInRDBMS>Se deben insertar los siguientes parametros:&lt;br/&gt;&lt;br/&gt;Una Persona no puede ingresar si esta dentro, luego de 5 minutos lo podra intentar nuevamente. Porque la salida no se controla.&lt;br/&gt;&lt;br/&gt;NUMERO_MAX_CAMBIO = Numero maximo de postergaciones de fecha que hace al año.&lt;br/&gt;&lt;br/&gt;PERIODO_MAX_CONGELACION = &lt;br/&gt;Parametro periodo congelacion para cuando alguien se va de vacaciones. si no maneja el gimnasio puede ser cero ej: se va por 3 meses pero si el parametro es 1 SOLO LE VALE UN MES</commentInRDBMS>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pkName>parametro_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_PARAMETRO" id="ECA30862-1A27-EE1A-2076-7E7CA3C4E9AA">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-10 02:43:46 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="NOMBRE" id="65F4B511-F958-6DEE-807C-E69C4408968C">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-10 02:44:28 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="VALOR" id="FD124ACE-12AB-D40F-0CD8-368FCBC7005A">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-10 02:44:47 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="DESCRIPCION" id="72316B18-3415-31DC-9785-9326E0D82E60">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-10 02:45:00 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="TIPO" id="01989D1D-95B3-20B6-9922-D3E6F29E6972">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-02-24 04:59:12 UTC</createdTime>
+<commentInRDBMS>El tipo de parametro puede ser de A (Aplicacion) P ( Pagina web )</commentInRDBMS>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_SEDE" id="E2B5E75A-18E2-D400-206D-98FA1B16A5D6">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-02-24 05:00:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>0D08E99B-EFCB-5B0C-AA8F-F08953206BD8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38C7688C-24B1-DD19-CB6A-CE9751FBF15F" referredColumn="0D08E99B-EFCB-5B0C-AA8F-F08953206BD8"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_ORGANIZACION" id="9FDF105E-FF0C-D4DE-7076-3708DD2FE697">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-02-24 05:01:12 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>4C55B3A0-1CC4-D902-35BD-F478FC6CDA51</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D009FBAA-B05C-9F2B-69ED-85D59B3A54A4" referredColumn="4C55B3A0-1CC4-D902-35BD-F478FC6CDA51"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="19612CFC-5068-A977-05C6-E1DF309361E4" name="parametro_PK">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-10 02:43:46 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="ECA30862-1A27-EE1A-2076-7E7CA3C4E9AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="62DC13C7-2B0F-0F24-559F-2B87F6B6DACB" name="PARAMETRO_F1">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-02-24 05:00:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="E2B5E75A-18E2-D400-206D-98FA1B16A5D6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="81ECA435-E934-4128-C1D7-FCF9B26D9727" name="PARAMETRO_F2">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-02-24 05:01:12 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="9FDF105E-FF0C-D4DE-7076-3708DD2FE697"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints>
+<tableCheckConstraint class="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint" name="PARAMETRO_C1" id="91291FB9-BB51-F67D-5DDB-82CB62DA8A4A" directorySegmentName="seg_0">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-02-24 05:00:10 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<rule>TIPO IN (&apos;A&apos;,&apos;P&apos;)</rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

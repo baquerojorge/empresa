@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="29974E04-48D9-4487-B313-7E389816CED1" directorySegmentName="seg_0" name="PAGO_CAMBIO_FECHA">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 20:20:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pkName>PAGO_CAMBIO_FECHA_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_PAGO_CAMBIO_FECHA" id="35DA4E6F-BB59-FC63-26D5-28E404AF9F24">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 20:20:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="NUEVA_FECHA_FINAL" id="FDF1827D-3C64-4C0B-C2B1-072F2070E3BD">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 20:23:20 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="PAGO_PLAN_SEC_PAGO_PLAN" id="ABC1DDCB-377B-7D1F-AF64-642FFB9B62F3">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 20:21:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>1088B128-5B72-462D-300B-0F61859968AF</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="41BD2EBE-220D-B9E0-5D05-3E92F8269487" referredColumn="1088B128-5B72-462D-300B-0F61859968AF"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_MOTIVO_CAMBIO_FECHA" id="F0425BB3-6F5E-0124-D9DD-4500557FADEB">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 20:21:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>6D3CC933-DBC5-0DD7-9D01-2BB27695DBE4</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BC10DC3-40D5-56DD-1F71-65B655C56E27" referredColumn="6D3CC933-DBC5-0DD7-9D01-2BB27695DBE4"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="JUSTIFICACION" id="55F3F28D-253D-744C-232B-C067D17ACF96">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 20:24:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="DESCRIPCION" id="D0E764C7-639F-636F-D413-39AC2067364B">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 20:21:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="26F2234E-16CD-FA74-E158-E81898955CC5" name="PAGO_CAMBIO_FECHA_PK">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 20:21:03 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="35DA4E6F-BB59-FC63-26D5-28E404AF9F24"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="AF717425-AE90-308C-38D5-045878861CE3" name="PAGO_CAMBIO_FECHA_F1">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 20:21:24 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="ABC1DDCB-377B-7D1F-AF64-642FFB9B62F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="46737E55-A86A-E749-2DEA-2883679CE6D1" name="PAGO_CAMBIO_FECHA_F2">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 20:21:47 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="F0425BB3-6F5E-0124-D9DD-4500557FADEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKArc class="oracle.dbtools.crest.model.design.relational.FKArc" id="51035F8A-1D8F-3886-1285-CB2C3DA6F8BD" directorySegmentName="seg_0" name="FKArc_2">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-04 02:34:51 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<mandatory>false</mandatory>
+<table>F886F11F-2C0B-30D3-9B06-4377D90DD69B</table>
+<fkeys>
+<fkeyID>D5495759-3E50-F821-0A28-039D5D6060AA</fkeyID>
+<fkeyID>DCC4E452-DBD2-9375-8DB6-4C3EEAFA474B</fkeyID>
+</fkeys>
+</FKArc>

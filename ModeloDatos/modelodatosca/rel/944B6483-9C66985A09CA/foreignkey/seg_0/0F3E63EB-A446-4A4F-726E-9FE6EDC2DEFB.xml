@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="0F3E63EB-A446-4A4F-726E-9FE6EDC2DEFB" directorySegmentName="seg_0" name="SERVICIO_F1">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-10 03:12:54 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<containerWithKeyObject>14A577B5-1667-5508-2489-C4B32916124A</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>83D196E5-47F3-4203-222E-27C60324926A</localFKIndex>
+<keyObject>78BF6EDC-6B7D-EEF5-69EF-7F31A487DBAA</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

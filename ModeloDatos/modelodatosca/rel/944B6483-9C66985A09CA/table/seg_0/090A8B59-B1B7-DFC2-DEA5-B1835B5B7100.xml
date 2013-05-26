@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="090A8B59-B1B7-DFC2-DEA5-B1835B5B7100" directorySegmentName="seg_0" name="INV_COSTO_HORARIO">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 20:35:44 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pkName>INV_COSTO_HORARIO_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_COSTO_HORARIO" id="222E7380-C190-A246-5743-228E9355D409">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 20:36:07 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_STOCK" id="6BDFF9BB-6DC7-9B21-CF91-341000D0ADA1">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 20:37:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>72F3C1B5-DB4B-46CA-7434-FEEEA7FD480D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E070E356-8C7B-4E7F-9A2A-1308B4A7762D" referredColumn="72F3C1B5-DB4B-46CA-7434-FEEEA7FD480D"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_HORARIO" id="1F281E15-3F28-F254-CFD0-705B0784AC7E">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 20:37:37 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>55B6D8EA-FDE5-0FC0-4F59-10B7972FA9F9</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13591896-4212-60AD-172C-29E8E717619B" referredColumn="55B6D8EA-FDE5-0FC0-4F59-10B7972FA9F9"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="VALOR" id="0A039E4D-CFC2-92BF-F14F-01E9BD28ED3E">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 20:36:32 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>16</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="DESCRIPCION" id="AABD60B6-C7FE-D9FA-86D9-BD67C23806BE">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 20:41:13 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="7709DF90-AFB5-B9DD-6DF1-4EF87D2C7828" name="INV_COSTO_HORARIO_PK">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 20:36:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="222E7380-C190-A246-5743-228E9355D409"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="464CEF63-D2F6-FB41-54B5-FB0FBAB9D9EB" name="INV_COSTO_HORARIO_F2">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 20:37:30 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="6BDFF9BB-6DC7-9B21-CF91-341000D0ADA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="909FA2F9-7555-CAD3-C398-621C7E7F8B3B" name="INV_COSTO_HORARIO_F1">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 20:37:37 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="1F281E15-3F28-F254-CFD0-705B0784AC7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

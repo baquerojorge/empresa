@@ -1,0 +1,325 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="96E87665-A373-2B02-B048-A3DFB774F221" directorySegmentName="seg_0" name="PERSONA">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 15:16:16 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pkName>SOCIO_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Title</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Column</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Datatype</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>PK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>FK Element</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>UK Element</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Not Null</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Key</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_PERSONA" id="80E0550D-9AAE-748F-143A-83030B72F492">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 15:16:49 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="IDENTIFICACION" id="7DE3DF39-663A-2D05-C0CB-03CAC47754B1">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 15:31:55 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="NOMBRES" id="0EAFCEDE-2560-C60F-DFF0-D793D3D78834">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 15:40:44 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="APELLIDOS" id="D8C6D4F6-81FE-0D62-56CB-7988C347A881">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 15:41:34 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="NOMRE_RAZON_SOCIAL" id="F8C3CEC7-0187-59E0-C171-6CB7A56F12AA">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 16:38:09 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="NIT" id="96D78EC8-15A3-600B-1753-9B32184AA87F">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 16:39:21 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ESTADO" id="96C472C9-32B2-4AF1-0577-A53F6D004A20">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 15:42:06 UTC</createdTime>
+<commentInRDBMS>(Activo, Inactivo)</commentInRDBMS>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="FOTO" id="B70FBE05-67AC-BE1C-3BCF-E6B91FD462C4">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 16:52:49 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="PREDECESOR" id="7007FE78-2E91-34DF-43E4-DAEA0CDB0A3F">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 16:51:58 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>80E0550D-9AAE-748F-143A-83030B72F492</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="060ED031-2DC1-EA48-9043-9ADDA17A4B2D" referredColumn="80E0550D-9AAE-748F-143A-83030B72F492"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="DESCRIPCION" id="87D2275B-787A-D608-6030-1C84902B26A7">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 15:42:49 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_TIPO_PERSONA" id="D2739872-DFFC-A4B7-78D1-1A60F992C28E">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 17:15:05 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>31444017-BD86-51AC-276C-CD6BBEFC5E4C</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B1C53B61-3EDD-91BB-0593-2F8F582BA6E4" referredColumn="31444017-BD86-51AC-276C-CD6BBEFC5E4C"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_SITIO_GEOGRAFICO" id="6267592A-D08C-6130-D193-7A7244B15ED2">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 19:16:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>EB384D1E-32BB-0C8F-491B-C56AE0406B56</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="948E4A33-699B-B14F-6298-380C1748DEF4" referredColumn="EB384D1E-32BB-0C8F-491B-C56AE0406B56"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_SEDE" id="B91F02DA-6A8B-2A38-26A9-72D955EFE0F3">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-04 02:17:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>0D08E99B-EFCB-5B0C-AA8F-F08953206BD8</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6607E963-A1F3-0DB7-BBB7-0BCCA1770DA9" referredColumn="0D08E99B-EFCB-5B0C-AA8F-F08953206BD8"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_ORGANIZACION" id="DC08840A-6B9E-6473-A7F0-8D6F3B5ADEE1">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-04 02:25:22 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>4C55B3A0-1CC4-D902-35BD-F478FC6CDA51</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="78E59CCD-B0E0-70A4-0625-DC8A06064EE2" referredColumn="4C55B3A0-1CC4-D902-35BD-F478FC6CDA51"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="19CB48FE-EAB5-53B9-1270-55AF002911D6" name="PERSONA_PK">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 15:16:49 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="80E0550D-9AAE-748F-143A-83030B72F492"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="3FD64BA1-950D-8194-C79E-7B41C596EF99" name="PERSONA_U1">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 16:19:03 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="7DE3DF39-663A-2D05-C0CB-03CAC47754B1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="CB8F9BE9-4B25-EB18-15D1-B5BA200F539D" name="PERSONA_F3">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 16:51:58 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="7007FE78-2E91-34DF-43E4-DAEA0CDB0A3F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="9BA2B1CE-B6F3-23A6-83B0-D9B0C0683EAA" name="PERSONA_F2">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 17:15:05 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="D2739872-DFFC-A4B7-78D1-1A60F992C28E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="80EF5ECA-1BD1-AD4D-8EDB-49D9E706EEEC" name="PERSONA_F6">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 19:16:26 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="6267592A-D08C-6130-D193-7A7244B15ED2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="82BB65D7-AA4B-FEFD-7704-684AB913CB90" name="PERSONA_F5">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-04 02:17:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="B91F02DA-6A8B-2A38-26A9-72D955EFE0F3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="F2150D3B-5076-A3E4-979B-141A5AC38553" name="PERSONA_F4">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-04 02:25:22 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="DC08840A-6B9E-6473-A7F0-8D6F3B5ADEE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

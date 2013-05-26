@@ -1,0 +1,233 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="945817D5-3800-9AA5-46C4-07B6A16FADF5" directorySegmentName="seg_0" name="POS_PUNTO_VENTA">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:08:41 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pkName>POS_PUNTO_VENTA_PK</pkName>
+<fonts>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Título</foType>
+<fontStyle>1</fontStyle>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Columna</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Tipo de Dato</foType>
+<colorRGB>-16744448</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Primaria</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Ajena</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Elemento de Clave Única</foType>
+<colorRGB>-16776961</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>No Nulo</foType>
+<colorRGB>-65536</colorRGB>
+</FontObject>
+<FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+<foType>Clave</foType>
+<colorRGB>-16777216</colorRGB>
+</FontObject>
+</fonts>
+<columns>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_PUNTO_VENTA" id="A3E1AAAD-7FE6-90ED-C677-7A9B54734365">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:09:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="PUNTO_VENTA" id="16CC0FFA-F04E-D26E-0019-5EF9FDADD62B">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:09:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<structuredType>47E390DE-0671-C4B1-8428-0F45CBEE18F8</structuredType>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>230</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="NOMBRE" id="282150F9-7FB1-3F6F-B4E7-24175A96C827">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:09:56 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="ESTADO" id="0ADFAFA6-6110-EC18-D1B7-E8DE000A3E78">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:10:46 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="DESCRIPCION" id="27E4EE7C-D79E-7F64-52BE-54E1EBA7CEDE">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:10:55 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_SITIO_GEOGRAFICO" id="7BBD42F0-6AF8-8E31-9DC7-8C1ABF812213">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:12:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>EB384D1E-32BB-0C8F-491B-C56AE0406B56</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="09315B9F-8DF2-0FAC-5070-79E22036A720" referredColumn="EB384D1E-32BB-0C8F-491B-C56AE0406B56"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_ADMON_PUNTO_VENTA" id="112BF831-9A0C-D236-D46C-675E347BE1EB">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:13:09 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>80E0550D-9AAE-748F-143A-83030B72F492</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E06D5160-180C-A79A-00E5-A6120708CF5C" referredColumn="80E0550D-9AAE-748F-143A-83030B72F492"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_PLAN_SERVICIO" id="978639DD-0C12-1815-CE1C-FCC9BD3C2ED6">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:20:52 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>17C4579C-A1C6-02A2-22DB-08546CFEAA5D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30A74663-3A70-14B6-C8D5-D9739C367D69" referredColumn="17C4579C-A1C6-02A2-22DB-08546CFEAA5D"/>
+</associations>
+</Column>
+<Column class="oracle.dbtools.crest.model.design.relational.Column" name="SEC_TOCK" id="6B44752C-0856-ADEC-7940-111C809F06DC">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:21:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<delegate>72F3C1B5-DB4B-46CA-7434-FEEEA7FD480D</delegate>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DF422697-2B61-948B-5C9B-515FD7F8BFE5" referredColumn="72F3C1B5-DB4B-46CA-7434-FEEEA7FD480D"/>
+</associations>
+</Column>
+</columns>
+<indexes>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="4D277954-0702-07EC-1413-323BE2DF4889" name="POS_PUNTO_VENTA_PK">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:09:14 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="A3E1AAAD-7FE6-90ED-C677-7A9B54734365"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="633F403F-8DC5-6DD9-AD9C-993AA24A22A9" name="POS_PUNTO_VENTA_U1">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-26 16:51:58 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="16CC0FFA-F04E-D26E-0019-5EF9FDADD62B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="4E299855-F7B2-5F44-B855-FA8DCC2A3288" name="POS_PUNTO_VENTA_F4">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:12:02 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="7BBD42F0-6AF8-8E31-9DC7-8C1ABF812213"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="A64BFA37-6641-B884-2F3C-0AB0B167DF19" name="POS_PUNTO_VENTA_F2">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:13:09 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="112BF831-9A0C-D236-D46C-675E347BE1EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="56EC3920-EBE5-A65A-48AD-8441B1B5C1C9" name="POS_PUNTO_VENTA_F3">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:20:52 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="978639DD-0C12-1815-CE1C-FCC9BD3C2ED6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="ED7B6189-DE8A-EB2B-5CFC-D055B341E25B" name="POS_PUNTO_VENTA_F1">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:21:01 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<indexColumnUsage>
+<colUsage columnID="6B44752C-0856-ADEC-7940-111C809F06DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

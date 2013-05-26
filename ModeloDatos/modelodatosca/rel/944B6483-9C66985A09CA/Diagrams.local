@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="main_view" objectID="BE48F455-24F5-FB8B-9C1E-7B7CB886632B" name="Relational_1" visible="false"/>
+   <object objectType="sub_view" objectID="9A36488D-9510-C2FE-BAC3-625F5B7F11BA" name="articulos" visible="true"/>
+   <object objectType="sub_view" objectID="E3E6FE58-BC69-B471-8D36-D1EB2BF501D3" name="autenticación" visible="true"/>
+   <object objectType="sub_view" objectID="3C6F6D9B-7839-9091-BADC-8AA74D3EA9D2" name="control_acceso" visible="false"/>
+   <object objectType="sub_view" objectID="654D614B-0AAB-95DB-3FEF-D1B475F40DBB" name="motivos_descuento" visible="true"/>
+   <object objectType="sub_view" objectID="97C86115-82DF-65FC-22B0-63AB3D6CE318" name="organizacion" visible="true"/>
+   <object objectType="sub_view" objectID="924654AB-F022-6789-77B1-52241F5EA815" name="pagos" visible="true"/>
+   <object objectType="sub_view" objectID="EFC82DEF-6EF6-6F8C-9F73-24F90A4A3045" name="parametro" visible="true"/>
+   <object objectType="sub_view" objectID="7F86090D-9571-9EC6-6EC8-6F0AB6933697" name="Personas" visible="false"/>
+   <object objectType="sub_view" objectID="0EAB4B58-A02E-0631-EFBF-B79A80214620" name="productos" visible="true"/>
+   <object objectType="sub_view" objectID="904F60A2-B94D-DDF0-C25D-5D2FFFC4F302" name="PuntoDeVenta" visible="true"/>
+   <object objectType="sub_view" objectID="4F3CDD7D-716A-8E66-3313-0F594A20AEDC" name="servicios" visible="true"/>
+   <object objectType="sub_view" objectID="C4CC4DB1-C986-389D-5195-2FF64EB6EA65" name="ubicación geografica" visible="false"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

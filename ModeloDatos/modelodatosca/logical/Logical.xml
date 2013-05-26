@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B867D6D8-8699-7F18-6B1E-F87E706C038C" mainViewID="2437E88A-85E5-AC9A-8678-F76C40C757FB">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 14:20:55 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

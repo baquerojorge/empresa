@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="83242C5F-1558-E2CB-F390-E2F6FBCEE3B2" directorySegmentName="seg_0" name="PREGUNTA_TIPO_PERSONA_F1">
+<createdBy>julianferes</createdBy>
+<createdTime>2012-12-30 16:22:05 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<containerWithKeyObject>B5BF22C4-AAC7-AF7F-A373-A78A4A23E29B</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>CC510DD8-BB9D-478B-63E5-3BDF129E299C</localFKIndex>
+<keyObject>9C5D61BD-A2E5-CC1E-0D97-117371EB17E5</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>
