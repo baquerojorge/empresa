@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="A27CFDB8-477B-34DE-523B-03C6DEAD2263" directorySegmentName="seg_0" name="SITIO_GEOGRAFICO_F2">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-01 19:48:24 UTC</createdTime>
+<generatorID>Generado por el Usuario</generatorID>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<containerWithKeyObject>3B891E4A-BA53-5F2C-289F-A07FD39FDBDA</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>BB222064-5975-6225-6B98-5C2BFB4BA382</localFKIndex>
+<keyObject>BD39FFA6-AC3C-8790-5355-9D51DE52960A</keyObject>
+<mandatory>false</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

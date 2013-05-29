@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelationalSubView" name="autenticación" id="E3E6FE58-BC69-B471-8D36-D1EB2BF501D3">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-01-02 00:27:23 UTC</createdTime>
+<autoRoute>false</autoRoute>
+<boxInbox>true</boxInbox>
+<showLegend>false</showLegend>
+<showLabels>false</showLabels>
+<showGrid>false</showGrid>
+<diagramColor>-1</diagramColor>
+<display>false</display>
+<notation>1</notation>
+<objectViews>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="7B0F5E37-2964-73AA-99A1-FD40D6E0DF44" otype="Table" vid="ABE1DF41-A7B6-DD69-7BF6-4A593EABF32F">
+<bounds x="676" y="0" width="223" height="110"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="91AA3B2C-645C-9BCD-E4EB-4805B8168253" otype="Table" vid="4DF03766-C801-F351-E504-DACDA479D756">
+<bounds x="339" y="0" width="305" height="135"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="96E87665-A373-2B02-B048-A3DFB774F221" otype="Table" vid="A63E4288-B4F7-FBED-6BA8-69538D817ED7">
+<bounds x="0" y="187" width="418" height="241"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D9EAF874-4C05-A355-5AFA-F8DBB5C59528" otype="Table" vid="B8D6C86C-8F11-4959-0938-7BDCCF81CA9E">
+<bounds x="0" y="0" width="273" height="131"/>
+</OView>
+<OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="F3961753-4EA4-61EE-697D-39354483D8D0" otype="Table" vid="E5F027F1-8170-0A41-FAC6-4A0C90CCFF04">
+<bounds x="547" y="180" width="362" height="146"/>
+</OView>
+</objectViews>
+<connectors>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="060ED031-2DC1-EA48-9043-9ADDA17A4B2D" otype="FKIndexAssociation" vid_source="A63E4288-B4F7-FBED-6BA8-69538D817ED7" vid_target="A63E4288-B4F7-FBED-6BA8-69538D817ED7">
+<lineWidth>1</lineWidth>
+<points>
+<point x="418" y="307"/>
+<point x="443" y="307"/>
+<point x="443" y="453"/>
+<point x="209" y="453"/>
+<point x="209" y="428"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="43EC14D9-936E-1A31-791A-1E4F90F78D1E" otype="FKIndexAssociation" vid_source="A63E4288-B4F7-FBED-6BA8-69538D817ED7" vid_target="E5F027F1-8170-0A41-FAC6-4A0C90CCFF04">
+<lineWidth>1</lineWidth>
+<points>
+<point x="418" y="256"/>
+<point x="547" y="256"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="6607E963-A1F3-0DB7-BBB7-0BCCA1770DA9" otype="FKIndexAssociation" vid_source="4DF03766-C801-F351-E504-DACDA479D756" vid_target="A63E4288-B4F7-FBED-6BA8-69538D817ED7">
+<lineWidth>1</lineWidth>
+<points>
+<point x="378" y="135"/>
+<point x="378" y="187"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="6899C785-9E84-5A1A-4226-835E16FDDF9B" otype="FKIndexAssociation" vid_source="ABE1DF41-A7B6-DD69-7BF6-4A593EABF32F" vid_target="E5F027F1-8170-0A41-FAC6-4A0C90CCFF04">
+<lineWidth>1</lineWidth>
+<points>
+<point x="797" y="110"/>
+<point x="797" y="180"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="78E59CCD-B0E0-70A4-0625-DC8A06064EE2" otype="FKIndexAssociation" vid_source="B8D6C86C-8F11-4959-0938-7BDCCF81CA9E" vid_target="A63E4288-B4F7-FBED-6BA8-69538D817ED7">
+<lineWidth>1</lineWidth>
+<points>
+<point x="127" y="131"/>
+<point x="127" y="187"/>
+</points>
+</Connector>
+<Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="85F5CD38-7257-7985-C7B0-BE0FCA41C249" otype="FKIndexAssociation" vid_source="B8D6C86C-8F11-4959-0938-7BDCCF81CA9E" vid_target="4DF03766-C801-F351-E504-DACDA479D756">
+<lineWidth>1</lineWidth>
+<points>
+<point x="273" y="72"/>
+<point x="339" y="71"/>
+</points>
+</Connector>
+</connectors>
+<arcs>
+<Arc class="oracle.dbtools.crest.swingui.relational.TVFKArc" oid="B1DAE735-A236-F734-AF2C-F642521FB9EF" otype="FKArc" vid="975C34CD-E5A3-752C-F625-8B81864BCD57">
+<bounds x="-20" y="167" width="458" height="281"/>
+</Arc>
+</arcs>
+</Diagram>

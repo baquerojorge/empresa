@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="403C4FE5-09D4-22FE-9046-D61A01C75FAF" directorySegmentName="seg_0" name="VINCULO_PERSONA_F1">
+<createdBy>julianferes</createdBy>
+<createdTime>2012-12-31 22:54:48 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<containerWithKeyObject>04218320-816B-7EF6-CEC8-A25A9C383DB1</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>41FD491B-CA74-FD5F-A2F7-D0BCEDA41122</localFKIndex>
+<keyObject>19CB48FE-EAB5-53B9-1270-55AF002911D6</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>

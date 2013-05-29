@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modelodatosca" id="4209D721-03C1-CE4A-6FCB-967882CCF01E" version="3.5">
+<createdBy>jferes</createdBy>
+<createdTime>2012-12-09 14:20:55 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4209D721-03C1-CE4A-6FCB-967882CCF01E</designId>
+</OSDM_Design>

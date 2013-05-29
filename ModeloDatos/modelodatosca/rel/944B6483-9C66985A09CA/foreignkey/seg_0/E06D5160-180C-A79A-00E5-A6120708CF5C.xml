@@ -1,0 +1,12 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="E06D5160-180C-A79A-00E5-A6120708CF5C" directorySegmentName="seg_0" name="POS_PUNTO_VENTA_F2">
+<createdBy>julianferes</createdBy>
+<createdTime>2013-05-19 21:13:09 UTC</createdTime>
+<ownerDesignName>modelodatosca</ownerDesignName>
+<containerWithKeyObject>945817D5-3800-9AA5-46C4-07B6A16FADF5</containerWithKeyObject>
+<deleteRule>NO ACTION</deleteRule>
+<localFKIndex>A64BFA37-6641-B884-2F3C-0AB0B167DF19</localFKIndex>
+<keyObject>19CB48FE-EAB5-53B9-1270-55AF002911D6</keyObject>
+<mandatory>true</mandatory>
+<transferable>true</transferable>
+</FKIndexAssociation>
